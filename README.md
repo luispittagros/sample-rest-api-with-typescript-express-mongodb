@@ -1,6 +1,6 @@
 # Book Library API
 
-This is a simple API for a book library as requested.
+This is a sample API for a book library.
 
 ### Setup
 
