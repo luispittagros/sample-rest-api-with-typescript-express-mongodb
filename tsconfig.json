@@ -1,0 +1,41 @@
+{
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.ts",
+    "src/**/*.json"
+  ],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "composite": true,
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "baseUrl": "./src",
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "nodenext",
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "pretty": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": true,
+    "emitDecoratorMetadata": true
+  }
+}
