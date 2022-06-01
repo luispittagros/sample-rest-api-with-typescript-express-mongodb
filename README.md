@@ -14,7 +14,7 @@ npm run dev
 Configuration settings are in the environment variables file `.env`.
 
 
-#### Users Endpoints
+#### Users endpoints
 
 `GET /users`
 
@@ -25,7 +25,7 @@ Configuration settings are in the environment variables file `.env`.
 `DELETE /users/:id`
 
 
-#### Books Endpoints:
+#### Books endpoints:
 
 `GET /books`
 
@@ -37,8 +37,7 @@ Configuration settings are in the environment variables file `.env`.
 
 `DELETE /books/:id`
 
-##### Borrow and return Books (requires authentication):
-
+#### Borrow and return books (authentication required):
 `POST /books/:id/borrow`   (borrow a book)
 
 `POST /books/:id/return `  (return a book)
@@ -56,7 +55,6 @@ To get a user token, you can use the `/auth/login` endpoint.
 Before you can use the API, you need to create a user.
 
 ##### Sign Up/Create user:
-
 ```
 POST /auth/signup
 {
@@ -66,8 +64,7 @@ POST /auth/signup
 }
 ```
 
-##### Login and get a user token:
-
+##### Login and retrieve a user token:
 ```
 POST /auth/login
 {
@@ -76,8 +73,7 @@ POST /auth/login
 }
 ```
 
-##### Activate the user account:
-
+##### Activate a user account:
 ```
 POST /auth/activate/:code
 ```
