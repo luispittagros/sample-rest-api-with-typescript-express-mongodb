@@ -4,6 +4,8 @@ This is a sample API for a book library.
 
 ### Setup
 
+Development environment: Node v17.6.0 (lower versions can be used)
+
 ```bash
 npm install
 npm run dev
@@ -11,7 +13,6 @@ npm run dev
 
 Configuration settings are in the environment variables file `.env`.
 
-Development environment: Node v17.6.0
 
 #### Users Endpoints
 
