@@ -14,7 +14,7 @@ npm run dev
 Configuration settings are in the environment variables file `.env`.
 
 
-#### Users endpoints
+#### Users endpoints:
 
 `GET /users`
 
