@@ -54,7 +54,7 @@ To get a user token, you can use the `/auth/login` endpoint.
 
 Before you can use the API, you need to create a user.
 
-##### Sign Up/Create user:
+##### Sign up/Create user:
 ```
 POST /auth/signup
 {
