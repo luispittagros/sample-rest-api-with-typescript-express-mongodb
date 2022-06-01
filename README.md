@@ -36,7 +36,7 @@ Configuration settings are in the environment variables file `.env`.
 
 `DELETE /books/:id`
 
-#### Borrow and return Books (requires authentication):
+##### Borrow and return Books (requires authentication):
 
 `POST /books/:id/borrow`   (borrow a book)
 
