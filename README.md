@@ -24,7 +24,8 @@ Configuration settings are in the environment variables file `.env`.
 
 `DELETE /users/:id`
 
-### Books Endpoints:
+
+#### Books Endpoints:
 
 `GET /books`
 
@@ -42,6 +43,7 @@ Configuration settings are in the environment variables file `.env`.
 
 `POST /books/:id/return `  (return a book)
 
+
 Requests must be authenticated with a valid user token sent in the header.
 
 Authentication is done via the `Authorization` header:
@@ -53,7 +55,7 @@ To get a user token, you can use the `/auth/login` endpoint.
 
 Before you can use the API, you need to create a user.
 
-Sign Up/Create user:
+##### Sign Up/Create user:
 
 ```
 POST /auth/signup
@@ -64,7 +66,7 @@ POST /auth/signup
 }
 ```
 
-Login and get a user token:
+##### Login and get a user token:
 
 ```
 POST /auth/login
@@ -74,7 +76,7 @@ POST /auth/login
 }
 ```
 
-Activate the user account:
+##### Activate the user account:
 
 ```
 POST /auth/activate/:code
